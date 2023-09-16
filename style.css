@@ -36,18 +36,18 @@ a, .button {
 /*Navigation*/
 
 nav, .nav-links{
-    display: flex; /*you can change screen size*/
+    display: flex; /*aligns without width and heght*/
 }
 
 nav {
-    justify-content:space-around ;
+    justify-content:space-evenly ;
     align-items: center;
     height: 15vh; /*takes 15% of the page */
 }
 
 .nav-links{
     gap: 2rem;
-    list-style: none;
+    list-style: none; /*removes list dots */
     font-size: 1.5rem;
 }
 
@@ -65,41 +65,41 @@ a:hover{
 .name{
     color: teal;
     font-size: 2rem;
-
-}
-.name{
     cursor: default;
 }
 
 
+
 /*Sections*/
-
-section {
-    padding-top: 4vh;
-    height: 96vh;
-    margin: 0 10rem;
-    box-sizing: border-box;
-    min-height: fit-content;
-}
-
-.section-container {
-    display: flex;
-}
-
-#profile {
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    height:  80hv;
-
-}
 
 .section_pic-container{
     display: flex;
+    justify-content: center;
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
+
+
+
+section {
+    padding-top: 5vh; 
+    height: 95vh;
+    margin: 0 10rem; /*side margins*/
+    box-sizing: border-box;
+    
+}
+
+
+
+#profile {
+    display: flex;
+    justify-content: center;
+    gap: 5rem; /*gap between section pic and section text*/
+
+}
+
+
 
 .profile-pic {
     border-radius: 2rem;
@@ -111,10 +111,6 @@ section {
 
 }
 
-.section_text p{
-    font-weight: 600;
-}
-
 .section_text_p1{
     text-align: center;
 }
@@ -124,6 +120,8 @@ section {
     margin-bottom: 1rem;
     cursor: default;
 }
+
+
 
 .title{
     font-size: 3rem;
@@ -156,7 +154,6 @@ section {
 }
 
 .btn{
-    font-weight: 600px;
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
@@ -211,27 +208,17 @@ section {
     text-align: center;
 }
 .section-container{
-    gap: 4rem;
+    gap: 10rem;
     height: 80%;
+    display: flex;
 }
 
-.section_pic-container{
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
 
 /*Experience Section*/
 #experience {
     position: relative;
 }
 
-.experience-sub-title{
-    color: blue;
-    font-weight: 600;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-}
 
 .experience-details-container{
     display: flex;
@@ -245,13 +232,13 @@ section {
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 article{
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 0.5rem;
 
 }
