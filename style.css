@@ -4,11 +4,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 
+
 /*whole page */
 *{
     margin: 0;
     padding: 0;
 
+}
+
+.navlook{
+    background-color: rgb(80, 80, 80);
 }
 
 body {
@@ -94,6 +99,10 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+.profile-pic {
+    border-radius: 2rem;
 }
 
 .section_text{
@@ -184,22 +193,12 @@ section {
     margin-top: 2rem;
 }
 .about-details-container {
-    justify-content: center;
+    justify-content: center;                                                
     flex-direction: column;
 }
 
 .about-containers, .about-details-container {
     display: flex;
-}
-
-.about-pic {
-    border-radius: 2rem;
-}
-
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
 }
 
 .details-container{
@@ -269,7 +268,7 @@ article .icon {
 }
 
 .color-container{
-    border-color: aqua;
+    border-color: green;
     background: white;
 }
 
@@ -289,7 +288,7 @@ article .icon {
     border-color: purple;
 }
 
-/*Section*/
+/*contact*/
 
 #contact{
     display: flex;
@@ -303,7 +302,7 @@ article .icon {
     justify-content: center;
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: aqua;
+    border-color: green;
     background: white;
     margin: 2rem auto;
     padding: 0.5rem;
@@ -327,5 +326,6 @@ article .icon {
 
 .email-icon{
     height: 2.5rem;
+    cursor: default;
 }
 
