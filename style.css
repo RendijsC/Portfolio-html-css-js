@@ -12,9 +12,7 @@
 
 }
 
-.navlook{
-    background-color: rgb(80, 80, 80);
-}
+
 
 body {
     font-family: 'Rubik', sans-serif;
@@ -34,6 +32,10 @@ a, .button {
 }
 
 /*Navigation*/
+
+.navlook{
+    background-color: rgb(80, 80, 80);
+}
 
 nav, .nav-links{
     display: flex; /*aligns without width and heght*/
@@ -153,20 +155,20 @@ section {
     gap: 1rem;
 }
 
-.btn{
+.button-1,.button-2{
     transition: all 300ms ease;
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
 }
-.button-colour-1,.btn-colour-2{
+.button-1{
     border: rgb(53, 53, 53) 0.1 solid;
     background-color: white;
 }
 
 
 
-.button-colour-1:hover,.btn-colour-2:hover{
+.button-1:hover{
     background: rgb(53, 53, 53);
     color: white;
     cursor: pointer;
@@ -221,14 +223,12 @@ section {
 
 
 .experience-details-container{
-    display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
 .article-container{
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
@@ -250,14 +250,12 @@ article .icon {
 /*Projects*/
 
 
+
 #projects{
     position: relative;
 }
 
-.color-container{
-    border-color: green;
-    background: white;
-}
+
 
 .project-img{
     border-radius: 2rem;
@@ -270,10 +268,7 @@ article .icon {
     color: black;
 }
 
-.project-button{
-    color: black;
-    border-color: purple;
-}
+
 
 /*contact*/
 
@@ -301,10 +296,8 @@ article .icon {
     justify-content: center;
     gap: 0.5rem;
     margin: 1rem;
-}
-
-.contact-info-container p{
     font-size: large;
+
 }
 
 .contact.icon{
